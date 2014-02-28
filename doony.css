@@ -608,8 +608,7 @@ textarea {
 
 /********************   top panel styles      ***********************/
 .yui-skin-sam #top-panel {
-  margin-left: 10px;
-  margin-bottom: 5px;
+  height: 20px;
   background: #219ce4;
   background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
   background-repeat:no-repeat;
@@ -851,7 +850,7 @@ a.yuimenulabel, a.yuimenuitemlabel,
 
 /* Add some margin to the disable project button */
 #main-panel div[align=right] form[action=disable] {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 /* Configuration/Settings page styles */
