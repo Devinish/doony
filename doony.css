@@ -623,6 +623,7 @@ textarea {
 .yui-skin-sam #search-box {
   font-size: 16px;
   padding: 5px 10px;
+  position: bottom;
   background-image: none;
   margin: 7px;
 }
