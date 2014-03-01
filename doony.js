@@ -325,7 +325,7 @@
     var colors = [
         '#C02942', // a red
         '#4ecdc4', // a bright green blue
-        '#1E9AE3', // orange
+        '#1E9AE3', // signshop blue
         '#556270', // a slate color
         '#542437', // purple
         '#8fbe00', // lime yellow
@@ -423,9 +423,9 @@
         $("#main-panel").prepend(div);
     };
 
-    var doonyTitleLink = $("#top-panel a").first();
-    var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + domain + "</div>");
+    //var doonyTitleLink = $("#top-panel a").first();
+    //var domain = getSubdomain(window.location.hostname);
+    //doonyTitleLink.html("<div id='doony-title'>" + domain + "</div>");
 
     var color = colors[Math.abs(hashCode(domain)) % colors.length];
     $("#top-panel").css('background-color', color);
