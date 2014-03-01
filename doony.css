@@ -613,7 +613,8 @@ textarea {
   background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
   background-repeat:no-repeat;
   background-position:left;
-  padding-left: -100px;
+  padding-left: 200px;
+  color: #219ce4;
   border-bottom: 1px solid #ccc;
 }
 
