@@ -609,8 +609,7 @@ textarea {
 /********************   top panel styles      ***********************/
 .yui-skin-sam #top-panel {
   height: 100px;
-  display: block;
-  box-sizing: border-box;
+  width: 0px;
   background: #219ce4;
   background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
   background-repeat:no-repeat;
