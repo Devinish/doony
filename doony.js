@@ -336,14 +336,18 @@
         WARNING: "alert-warning"
     };
 
+    //var getSubdomain = function(domain) {
+        //var parts = domain.split(".");
+        //if (parts.length <= 2) {
+            //return parts.join(".");
+        //} else {
+            //return parts.slice(0, -2).join(".");
+        //}
+    //};
+    
     var getSubdomain = function(domain) {
-        var parts = domain.split(".");
-        if (parts.length <= 2) {
-            return parts.join(".");
-        } else {
-            return parts.slice(0, -2).join(".");
-        }
-    };
+     return " ";   
+    }
 
     var hashCode = function(string) {
         var hash = 0, i, char;
