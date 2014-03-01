@@ -428,7 +428,7 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + domain + "</div>");
+    doonyTitleLink.html("<div id='doony-title'>"+"</div>");
 
     var color = colors[Math.abs(hashCode(domain)) % colors.length];
     $("#top-panel").css('background-color', color);
