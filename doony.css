@@ -616,6 +616,9 @@ textarea {
   background-position:left;
   color: #219ce4;
   border-bottom: 1px solid #ccc;
+  overflow:hidden;
+  text-indent:100%;
+  white-space:nowrap;
 }
 
 .yui-skin-sam #top-panel img {
