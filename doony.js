@@ -336,12 +336,15 @@
         WARNING: "alert-warning"
     };
 
-    var getSubdomain = function(domain) {
-        var parts = domain.split(".");
-        if (parts.length <= 2) {
-            return parts.join(".");
-        } else {
-            return parts.slice(0, -2).join(".");
+    //var getSubdomain = function(domain) {
+        //var parts = domain.split(".");
+        //if (parts.length <= 2) {
+            //return parts.join(".");
+        //} else {
+            //return parts.slice(0, -2).join(".");
+        //}
+        var getSubdomain = function(domain) {
+            return "";
         }
     };
 
@@ -425,7 +428,7 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + "''" + "</div>");
+    doonyTitleLink.html("<div id='doony-title'>" + domain + "</div>");
 
     var color = colors[Math.abs(hashCode(domain)) % colors.length];
     $("#top-panel").css('background-color', color);
