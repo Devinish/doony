@@ -609,7 +609,6 @@ textarea {
 /********************   top panel styles      ***********************/
 .yui-skin-sam #top-panel {
   height: 100px;
-  width: 0px;
   background: #219ce4;
   background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
   background-repeat:no-repeat;
@@ -620,6 +619,7 @@ textarea {
 
 .yui-skin-sam #top-panel img {
   display: false;
+  padding-left: 300px;
 }
 
 .yui-skin-sam #search-box {
@@ -633,6 +633,7 @@ textarea {
 .yui-skin-sam #login-field {
   margin-top: 100px;
   vertical-align: bottom;
+  padding-bottom: 5px;
 }
 
 /******************* side panel styles ***********************/
