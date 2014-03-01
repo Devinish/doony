@@ -617,6 +617,10 @@ textarea {
   border-bottom: 1px solid #ccc;
 }
 
+.yui-skin-sam #top-panel a{
+  margin-left: 200px;
+}
+
 .yui-skin-sam #top-panel img {
   display: false;
 }
