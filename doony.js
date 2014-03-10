@@ -330,6 +330,11 @@
         '#542437', // purple
         '#8fbe00', // lime yellow
     ];
+    
+    $(function () {
+        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://google.com'><div>click anywhere</div></a>
+        <a id='logo2' href='http://google.com'><div>click anywhere</div></a><div>");
+    });
 
     var Alert = {
         ERROR : "alert-danger",
