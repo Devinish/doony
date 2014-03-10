@@ -624,11 +624,19 @@ textarea {
   left: 0;
 }
 
-#logo > div,
+#logo > div {
+  background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
+  background-repeat:no-repeat;
+  background-position:left;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
 #logo2 > div {
   background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
   background-repeat:no-repeat;
-  background-position:center;
+  background-position:left;
   width: 100px;
   height: 100px;
   display: inline-block;
