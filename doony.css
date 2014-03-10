@@ -616,10 +616,7 @@ textarea {
   padding-left: 300px;
   color: #219ce4;
   border-bottom: 1px solid #ccc;
-}
-
-#top-panel {
-    position: relative;
+  position: relative;
 }
 
 #logo > div,
