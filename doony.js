@@ -651,6 +651,5 @@
 });
 
 $(function () {
-        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://google.com'><div>click anywhere</div></a>
-        <a id='logo2' href='http://google.com'><div>click anywhere</div></a><div>");
+        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://google.com'><div>click anywhere</div></a><a id='logo2' href='http://google.com'><div>click anywhere</div></a><div>");
     });
