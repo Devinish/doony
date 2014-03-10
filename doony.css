@@ -612,6 +612,7 @@ textarea {
   background: #219ce4;
   color: #219ce4;
   border-bottom: 1px solid #ccc;
+  position: relative;
 }
 
 #top-panel {
