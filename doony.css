@@ -608,7 +608,6 @@ textarea {
 
 /********************   top panel styles      ***********************/
 .yui-skin-sam #top-panel {
-  height: 100px;
   background: #219ce4;
   color: #219ce4;
   border-bottom: 1px solid #ccc;
@@ -617,6 +616,10 @@ textarea {
 
 #top-panel {
   position: relative;
+}
+
+#logoarea {
+  
 }
 
 #logo > div,
