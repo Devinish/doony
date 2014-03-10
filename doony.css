@@ -616,11 +616,14 @@ textarea {
   padding-left: 300px;
   color: #219ce4;
   border-bottom: 1px solid #ccc;
+}
+
+#top-panel {
   position: relative;
 }
 
-.yui-skin-sam #logo > div,
-.yui-skin-sam #logo2 > div {
+#logo > div,
+#logo2 > div {
     width: 100px;
     height: 100px;
     display: inline-block;
