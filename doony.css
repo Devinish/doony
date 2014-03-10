@@ -610,10 +610,6 @@ textarea {
 .yui-skin-sam #top-panel {
   height: 100px;
   background: #219ce4;
-  background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
-  background-repeat:no-repeat;
-  background-position:left;
-  padding-left: 300px;
   color: #219ce4;
   border-bottom: 1px solid #ccc;
 }
@@ -624,9 +620,12 @@ textarea {
 
 #logo > div,
 #logo2 > div {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+  background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
+  background-repeat:no-repeat;
+  background-position:left;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
 }
 
 .yui-skin-sam #top-panel img {
