@@ -619,8 +619,8 @@ textarea {
   position: relative;
 }
 
-#logo > div,
-#logo2 > div {
+.yui-skin-sam #logo > div,
+.yui-skin-sam #logo2 > div {
     width: 100px;
     height: 100px;
     display: inline-block;
