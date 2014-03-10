@@ -618,6 +618,17 @@ textarea {
   border-bottom: 1px solid #ccc;
 }
 
+#top-panel {
+    position: relative;
+}
+
+#logo > div,
+#logo2 > div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
 .yui-skin-sam #top-panel img {
   display: false;
 }
