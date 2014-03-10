@@ -622,7 +622,7 @@ textarea {
 #logo2 > div {
   background-image: url("http://dev.bukkit.org/media/images/42/758/ssheader2.png");
   background-repeat:no-repeat;
-  background-position:left;
+  background-position:center;
   width: 100px;
   height: 100px;
   display: inline-block;
