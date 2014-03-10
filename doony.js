@@ -325,7 +325,7 @@
     var colors = [
         '#C02942', // a red
         '#4ecdc4', // a bright green blue
-        '#6dc9ff', // signshop blue
+        '#ade1ff', // signshop blue
         '#556270', // a slate color
         '#542437', // purple
         '#8fbe00', // lime yellow
