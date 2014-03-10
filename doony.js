@@ -635,10 +635,6 @@
                 $.post(jobUrl + data.lastBuild.number + '/stop');
             });
         });
-        
-        $(function () {
-            $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://google.com'><div>click anywhere</div></a><a id='logo2' href='http://google.com'><div>click anywhere</div></a><div>");
-        });
 
         var title = $("#main-panel h1").first();
         if (title.children("div").length) {
@@ -648,6 +644,10 @@
             title.after(button);
         }
     }
+    
+    $(function () {
+        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://google.com'><div>click anywhere</div></a><a id='logo2' href='http://google.com'><div>click anywhere</div></a><div>");
+    });
 
     $("#l10n-footer").after("<span class='doony-theme'>Browsing Jenkins with " +
         "the <a target='_blank' href='https://github.com/kevinburke/doony'>" +
