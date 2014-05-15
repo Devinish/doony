@@ -647,7 +647,8 @@
     
     $(function () {
         $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://tiny.cc/signshop'><div></div></a>
-        //<a id='logo2' href='http://www.tiny.cc/beastnode'><div></div></a><div>");
+        //<a id='logo2' href='http://www.tiny.cc/beastnode'><div></div></a>
+        <div>");
     });
 
     $("#l10n-footer").after("<span class='doony-theme'>Browsing Jenkins with " +
