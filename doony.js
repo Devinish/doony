@@ -646,7 +646,7 @@
     }
     
     $(function () {
-        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://tiny.cc/signshop'><div></div></a><a id='logo2' href='http://tiny.cc/Beastnode'><div></div></a><div>");
+        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://tiny.cc/signshop'><div></div></a><a id='logo2' href='http://www.Beastnode.com'><div></div></a><div>");
     });
 
     $("#l10n-footer").after("<span class='doony-theme'>Browsing Jenkins with " +
