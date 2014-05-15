@@ -646,7 +646,7 @@
     }
     
     $(function () {
-        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://tiny.cc/signshop'><div></div></a><div></div><div>");
+        $("#top-panel").append("<div id='logoarea'><a id='logo' href='http://dev.bukkit.org/server-mods/signshop/'><div></div></a><div></div><div>");
     });
 
     $("#l10n-footer").after("<span class='doony-theme'>Browsing Jenkins with " +
